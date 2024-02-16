@@ -1,24 +1,48 @@
-# README
+# Rails Blog App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Created as part of The Odin Project[^1] curriculum and Ruby on Rails Guides[^2].
 
-Things you may want to cover:
+## Topics:
 
-* Ruby version
+- [x] Web Server
+- [x] Generating Model
+- [x] Database Migrations
+- [x] CRUD
+  - [x] Showing List of Articles
+  - [x] Showing a Single Article
+  - [x] Resourceful Routing
+  - [x] Creating New Article
+  - [x] Updating an Article
+  - [x] Deleting an Article
+- [x] Generating Second Model
+  - [x] Associating Model
+  - [x] Adding Route
+  - [x] Generating Controller
+- [x] Refactoring
+  - [x] Rendering Partial Collection
+  - [x] Rendering Partial Form
+  - [x] USing Concerns
+- [x] Deleting Comments
+  - [x] Deleting Associated Objects
+- [x] Security
+  - [x] Basic Authentication
 
-* System dependencies
+## Requirement
 
-* Configuration
+- Ruby `3.2.2`
+- Rails `7.1.3`
+- sqlite3 `1.4`
 
-* Database creation
+## Install Dependencies (First time only)
 
-* Database initialization
+- Install ruby `3.2.2`
+- Install rails dependencies: `bundle install`
 
-* How to run the test suite
+## Database creation & initialization
+- `bin/rails db:create`
+- `bin/rails db:migrate`
 
-* Services (job queues, cache servers, search engines, etc.)
+<br/><br/>
 
-* Deployment instructions
-
-* ...
+[^1]: The Odin Project. _Connect Four_. https://www.theodinproject.com/lessons/ruby-connect-four
+[^2]: Ruby on Rails Guides (v7.13). _Getting Started with Rails_. https://guides.rubyonrails.org/getting_started.html
