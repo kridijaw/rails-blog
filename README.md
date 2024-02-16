@@ -39,10 +39,11 @@ Created as part of The Odin Project[^1] curriculum and Ruby on Rails Guides[^2].
 - Install rails dependencies: `bundle install`
 
 ## Database creation & initialization
+
 - `bin/rails db:create`
 - `bin/rails db:migrate`
 
 <br/><br/>
 
-[^1]: The Odin Project. _Connect Four_. https://www.theodinproject.com/lessons/ruby-connect-four
+[^1]: The Odin Project. _Project: Blog App_. https://www.theodinproject.com/lessons/ruby-on-rails-blog-app
 [^2]: Ruby on Rails Guides (v7.13). _Getting Started with Rails_. https://guides.rubyonrails.org/getting_started.html
