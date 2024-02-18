@@ -2,7 +2,7 @@
 
 Created as part of The Odin Project[^1] curriculum and Ruby on Rails Guides[^2].
 
-## Topics:
+## Progress
 
 - [x] Web Server
 - [x] Generating Model
